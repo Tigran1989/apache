@@ -1,0 +1,19 @@
+service apache2 graceful -  reload
+/etc/apache2/apache2.conf
+
+apachectl -t  check syntax ok or no
+
+grep -Ri Errorlog /etc/apache2/
+
+AWStats tool for log analyze opensource
+
+Go Acess same terminal application  for anlyze
+
+graylog2.org
+
+logstash.net
+
+
+ps -ax | grep apache2 | wc             show apache connection 
+
+netstat -an | grep 10.6.0.75      show connection 
